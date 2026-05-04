@@ -1,15 +1,16 @@
-package model;
+package aps.trabalho.SCALE_Software.model;
 
-import org.junit.jupiter.api.BeforeEach;
+import aps.trabalho.SCALE_Software.model.Recurso;
+import aps.trabalho.SCALE_Software.model.Tipo;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class Processo {
+public class ProcessoTest {
 
     @Test
     void deveAdicionarUmRecurso() {
-        Recurso r = new Recurso("Solar", "R", 100, 2.0);
+        Recurso r = new Recurso("Solar", Tipo.r, 100, 2.0);
         processo.adicionarRecurso(r);
 
         assertEquals(1, processo.entradas.size());
@@ -17,9 +18,9 @@ public class Processo {
 
     @Test
     void deveAdicionarMultiplosRecursos() {
-        processo.adicionarRecurso(new Recurso("Solar",  "R",  100, 2.0));
-        processo.adicionarRecurso(new Recurso("Carvão", "NR", 50,  4.0));
-        processo.adicionarRecurso(new Recurso("Terra",  "N",  200, 1.0));
+        processo.adicionarRecurso(new Recurso("Solar",  Tipo.r,  100, 2.0));
+        processo.adicionarRecurso(new Recurso("Carvão", Tipo.nr, 50,  4.0));
+        processo.adicionarRecurso(new Recurso("Terra",  Tipo.n,  200, 1.0));
 
         assertEquals(3, processo.entradas.size());
     }
