@@ -1,4 +1,4 @@
-package aps.trabalho.SCALE_Software.model
+package aps.trabalho.SCALE_Software.model;
 
 import org.junit.jupiter.api.Test;
 
