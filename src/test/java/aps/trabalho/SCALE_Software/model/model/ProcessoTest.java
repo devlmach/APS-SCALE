@@ -1,5 +1,9 @@
-package aps.trabalho.SCALE_Software.model;
+package aps.trabalho.SCALE_Software.model.model;
 
+import aps.trabalho.SCALE_Software.model.Processo;
+import aps.trabalho.SCALE_Software.model.Recurso;
+import aps.trabalho.SCALE_Software.model.Tipo;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -7,6 +11,11 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class ProcessoTest {
 
     private Processo processo;
+
+    @BeforeEach
+    void Setup(){
+        processo = new Processo("Inicalizando");
+    }
 
     @Test
     void deveAdicionarUmRecurso() {
