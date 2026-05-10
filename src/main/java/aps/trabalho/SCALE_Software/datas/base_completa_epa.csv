@@ -1,0 +1,12 @@
+nome,tipo,quantidade,uev
+Energia Solar,R,1000,1.00E+06
+Energia Eólica,R,500,5.20E+08
+Energia Geotérmica,R,200,4.90E+09
+Agua Doce,R,50,1.28E+12
+Madeira,R,100,3.16E+10
+Carvao Antracite,NR,300,3.89E+10
+Gas Natural,NR,150,5.36E+12
+Petroleo Bruto,NR,10,5.09E+15
+Ferro,NR,1000,2.74E+10
+Ouro,NR,5,3.36E+16
+Prata,NR,20,3.92E+14

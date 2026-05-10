@@ -1,0 +1,7 @@
+nome,tipo,quantidade,uev
+Energia Solar,R,2000,1.00E+06
+Agua Doce,R,100,1.28E+12
+Madeira,R,300,3.16E+10
+Gas Natural,NR,400,5.36E+12
+Petroleo Bruto,NR,50,5.09E+15
+Ferro,NR,2000,2.74E+10
